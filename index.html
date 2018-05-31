@@ -24,6 +24,9 @@
     <!--  CSS for Demo Purpose, don't include it in your project     -->
     <link href="assets/css/demo.css" rel="stylesheet" />
 
+    <!-- CSS for realtime clock display -->
+    <link rel="stylesheet" href="assets/css/clock.css">
+
 
     <!--     Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -168,15 +171,7 @@
                         <div class="card">
 
                             <div class="header">
-                                <h4 class="title">CATEGORIES</h4>
-                                
-                                <!-- Realtime function -->
-                                    <div id="clockdate" class="category">
-                                        <div class="">
-                                            <div id="clock"></div>
-                                            <div id="date"></div>
-                                        </div>
-                                    </div> 
+                                <h4 class="title text-center">CATEGORIES</h4>
                 
                             </div>
                             <div class="content">
@@ -205,24 +200,18 @@
                     <div class="col-md-8">
                         <div class="card">
                             <div class="header">
-                                <h4 class="title">Games</h4>                    
+                                <h4 class="title text-center">Welcome</h4>                    
                             </div>
                             <div class="content">
                                 <!-- <div id="chartHours" class="ct-chart"></div> -->
-                                <div class="col-lg-12"></div>
-                                
-                        
-                                <div class="footer">
-                                    <div class="legend">
-                                        <i class="fa fa-circle text-info"></i> Open
-                                        <i class="fa fa-circle text-danger"></i> Live
-                                        <i class="fa fa-circle text-warning"></i> Points
+
+                                <!-- Realtime clock function -->
+                                <div id="clockdate" class="clockdate-wrapper">
+                                    <div class="">
+                                        <div id="clock"></div>
+                                        <div id="date"></div>
                                     </div>
-                                    <hr>
-                                    <div class="stats">
-                                        <i class="fa fa-history"></i> Updated 3 minutes ago
-                                    </div>
-                                </div>
+                                </div>                                                                                      
                             </div>
                         </div>
                     </div>
